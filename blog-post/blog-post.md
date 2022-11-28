@@ -168,7 +168,7 @@ Some of the variables are predefined by the Copilot runtime and you should famil
 
 Once the call is in place, you can simply run `copilot svc deploy`. This will create a CloudFormation changeset and will apply the changes to your infrastructure.
 
-Since the creation of the database is not instant, be ready to wait around 15 to 20 minutes to have your stack updated. The above command will not only create a database but will update (this doesn't make sense, compute is a verb and I don't know what you are trying to say here)->the compute<- with the environment variables that you can use in your code to connect to the database.
+Since the creation of the database is not instant, be ready to wait around 15 to 20 minutes to have your stack updated. The above command will not only create a database but will update your ECS configuration with the environment variables that you can use in your code to connect to the database.
 
 In your terminal window you should see similar results:
 
