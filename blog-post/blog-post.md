@@ -42,11 +42,11 @@ Another positive side effect of shifting responsibilities left happens when soft
 
 The current market standard for defining infrastructure as code (as well as a NearForm's standard) is [Terraform](https://www.terraform.io/).
 
-While Terraform may be the de facto standard, there are a wide range of other infrastucture as code tools available. For many cloud engineers tools like [https://aws.amazon.com/cloudformation/](AWS CloudFormation), and [https://aws.amazon.com/cdk/](AWS CDK) are also very popular in the context of AWS.
+While Terraform may be the de facto standard, there are a wide range of other infrastucture as code tools available. For many cloud engineers tools like [AWS CloudFormation](https://aws.amazon.com/cloudformation/), and [AWS CDK](https://aws.amazon.com/cdk/) are also very popular in the context of AWS.
 
 As AWS Copilot is an abstraction on top of AWS CloudFormation, it is designed to ease infrastructure creation for common patterns. Therefore the tool can be a good choice for software engineers focused on developing business applications that need to be independent from the wider cloud ecosystem in early development stages by keeping things simple and using the same or at least similar cloud components to the production-grade solution.
 
-Being able to experiment fast and deploy the solution, as early as sprint 0, to the cloud can help build customer confidence and enables teams to get instantaneous customer feedback. At NearForm, depending on the needs, our [https://www.nearform.com/services/devops-platform-engineering/](DevOps specialists) can either fine-tune and extend the AWS Copilot-based solution and/or simultaneously build a tailor-made infrastructure.
+Being able to experiment fast and deploy the solution, as early as sprint 0, to the cloud can help build customer confidence and enables teams to get instantaneous customer feedback. At NearForm, depending on the needs, our [DevOps specialists](https://www.nearform.com/services/devops-platform-engineering/) can either fine-tune and extend the AWS Copilot-based solution and/or simultaneously build a tailor-made infrastructure.
 
 ## Trade-offs and limitations
 
